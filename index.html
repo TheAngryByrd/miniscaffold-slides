@@ -52,8 +52,13 @@
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
             <section >
-<section >
 <h1><a href="https://github.com/TheAngryByrd/MiniScaffold/">MiniScaffold</a></h1>
+<p>Jimmy Byrd</p>
+</section>
+<section >
+<section >
+<h3>What is <a href="https://github.com/TheAngryByrd/MiniScaffold/">MiniScaffold</a>?</h3>
+<p>Generates a dotnet solution (library or console) with many Good To Have™ conventions</p>
 </section>
 <section >
 <h3>Getting started</h3>
@@ -78,12 +83,6 @@ cd MyCoolNewLib
 ./build.sh
 </code></pre></td></tr></table>
 </section>
-</section>
-<section >
-<section >
-<h3>What is <a href="https://github.com/TheAngryByrd/MiniScaffold/">MiniScaffold</a>?</h3>
-<p>Generates a dotnet project (library or console) with many Good To Have™ conventions</p>
-</section>
 <section >
 <h3>What  Good To Have™ conventions?</h3>
 <ul>
@@ -95,6 +94,7 @@ cd MyCoolNewLib
 <li>Upload <a href="https://help.github.com/articles/creating-releases/">Releases to Github</a></li>
 <li>CI through <a href="https://www.appveyor.com/">AppVeyor (Windows)</a> and <a href="https://travis-ci.org/">TravisCI (Linux)</a></li>
 <li><a href="https://help.github.com/articles/about-issue-and-pull-request-templates/">Issue and Pull Request Templates for Github</a></li>
+<li><a href="https://github.com/fsprojects/fantomas">Code formatting</a></li>
 <li><a href="https://github.com/fsprojects/FSharp.Formatting">Documentation Generation</a> <a href="https://github.com/TheAngryByrd/MiniScaffold/pull/110">(WIP)</a></li>
 </ul>
 </section>
@@ -332,7 +332,7 @@ Status:    Ok
 <h3>Paket firehose intro</h3>
 <h4>Paket has 2 top level files</h4>
 <ul>
-<li><code>paket.dependencies</code> - Application Depedencies</li>
+<li><code>paket.dependencies</code> - Application Dependencies</li>
 <li><code>paket.lock</code> -  records the concrete dependency resolution of all direct and transitive dependencies of your project</li>
 </ul>
 <h4>One per project</h4>
@@ -486,6 +486,12 @@ Total tests: 2. Passed: 2. Failed: 0. Skipped: 0.
 <h3><a href="https://help.github.com/articles/about-issue-and-pull-request-templates/">Issue and Pull Request Templates for Github</a></h3>
 <ul>
 <li>Example: <a href="https://github.com/TheAngryByrd/MiniScaffold/tree/master/.github">MiniScaffold</a></li>
+</ul>
+</section>
+<section >
+<h3>Code formatting</h3>
+<ul>
+<li><a href="https://github.com/fsprojects/fantomas">Fantomas</a></li>
 </ul>
 </section>
 <section >
